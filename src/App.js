@@ -1,10 +1,14 @@
 import './App.css';
 import Example from './comp/cal';
+import Testpage from './comp/testpage';
 
 function App() {
   return (
     <div className="App">
-      <Example></Example>
+      <div class="md:container md:mx-auto">
+        <Testpage></Testpage>
+      </div>
+      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
