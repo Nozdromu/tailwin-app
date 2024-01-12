@@ -1,5 +1,4 @@
 import './App.css';
-import Example from './comp/cal';
 import Testpage from './comp/testpage';
 
 function App() {
